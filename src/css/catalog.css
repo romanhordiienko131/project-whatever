@@ -29,11 +29,20 @@
 .card-watch {
 }
 
+.img {
+  padding: 42px 64px 28px 63px;
+}
+
+.text-name-price {
+  padding: 0 28px 24px 28px;
+}
+
 .watch-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
+  padding-bottom: 8px;
 }
 
 .text-card {
