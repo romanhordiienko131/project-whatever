@@ -1,0 +1,44 @@
+.section-catalog {
+}
+.container {
+}
+
+.title-cat {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.container-catalog {
+}
+.list-cat {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.item-cat {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background-color: #f3f3f3;
+}
+.card-watch {
+}
+
+.watch-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.text-card {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
