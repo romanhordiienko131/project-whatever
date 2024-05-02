@@ -11,6 +11,7 @@
   border-radius: 30px;
   background: #f3f3f3;
   padding: 0 20px;
+  padding-bottom: 40px;
 }
 .about-title {
   font-size: 32px;
@@ -44,10 +45,12 @@
   margin-bottom: 0;
 }
 
-.about-btn {
+.about-btn-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
-  margin-bottom: 40px;
-  min-width: 160px;
+  width: 160px;
   height: 48px;
   flex-shrink: 0;
   border-radius: 16px;
@@ -58,13 +61,12 @@
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
-  padding: 15px 38px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.about-btn:hover,
-.about-btn:focus {
+.about-btn-us:hover,
+.about-btn-us:focus {
   background-color: #1f3cd4;
 }
 
