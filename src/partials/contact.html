@@ -1,0 +1,75 @@
+<section id="contact">
+  <div class="container contact-container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="content-field">
+      <div class="form-box">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form>
+          <div class="form">
+            <label class="form-label" for="user-name"></label>
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+            />
+
+            <label class="form-label" for="mail"></label>
+            <input
+              class="form-input"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="Email"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+
+            <label class="form-label" for="phone"></label>
+            <input
+              class="form-input"
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="+380"
+              required
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            />
+
+            <label for="user-comment"> </label>
+            <textarea
+              class="comment-input"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+            ></textarea>
+            <button class="form-button" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+
+      <picture>
+        <source
+          srcset="./img/contact/mob1x.jpg 1x, ./img/contact/mob2x.jpg 2x"
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="./img/contact/tab1x.jpg 1x, ./img/contact/tab2x.jpg 2x"
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="./img/contact/desk1x.jpg 1x, ./img/contact/desk2x.jpg 2x"
+          media="(min-width: 1280px)"
+        />
+
+        <img src="./img/contact/mob1x.jpg" alt="watch picture" />
+      </picture>
+    </div>
+  </div>
+</section>
