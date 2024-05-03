@@ -1,6 +1,7 @@
-.section-catalog {
-}
-.container {
+.container-catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .title-cat {
@@ -8,12 +9,10 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
-  padding-top: 30px;
   padding-bottom: 24px;
+  text-align: start;
 }
 
-.container-catalog {
-}
 .list-cat {
   display: flex;
   flex-direction: column;
@@ -26,8 +25,6 @@
   height: 364px;
   background-color: #f3f3f3;
 }
-.card-watch {
-}
 
 .img {
   padding: 42px 64px 28px 63px;
@@ -35,6 +32,7 @@
 
 .text-name-price {
   padding: 0 28px 24px 28px;
+  text-align: start;
 }
 
 .watch-name {
@@ -50,4 +48,91 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+}
+
+.show-btn {
+  border-radius: 16px;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fbfbfb;
+  margin-top: 40px;
+}
+
+.show-btn:hover,
+.show-btn:focus {
+  background-color: #1f3cd4;
+}
+
+.item-cat-visibility {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container-catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .list-cat {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .item-cat {
+    min-width: 344px;
+    min-height: 414px;
+  }
+
+  .img {
+    padding: 34px 38px 20px 38px;
+  }
+
+  .watch-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .watch-name-text {
+    width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .item-cat-visibility {
+    display: block;
+  }
+
+  .show-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-catalog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .list-cat {
+    justify-content: center;
+    gap: 23px;
+  }
+
+  .item-cat {
+    min-width: 368px;
+    min-height: 414px;
+  }
+
+  .watch-name-text {
+    width: 304px;
+  }
 }
