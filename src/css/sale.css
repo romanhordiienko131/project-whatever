@@ -126,6 +126,11 @@
 /* ----------Tablet version-------- */
 
 @media screen and (min-width: 768px) {
+  .sale-title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
   .sale-list {
     flex-direction: column;
     gap: 10px;
@@ -164,7 +169,7 @@
   }
 
   .sale-content-subtitle {
-    width: 436px;
+    max-width: 436px;
     font-size: 32px;
     line-height: 1.13;
   }
@@ -190,5 +195,24 @@
   .functions-list-item {
     font-size: 14px;
     line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-container {
+    display: flex;
+    gap: 40px;
+  }
+  .sale-active-wrapper {
+    width: 428px;
+    height: 558px;
+  }
+
+  .sale-content {
+    width: 530px;
+    height: 558px;
+  }
+  .sale-content-subtitle {
+    max-width: 389px;
   }
 }
