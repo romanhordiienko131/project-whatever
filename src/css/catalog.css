@@ -3,9 +3,6 @@
   padding-bottom: 30px;
 }
 
-.container-catalog {
-}
-
 .title-cat {
   font-weight: 600;
   font-size: 32px;
@@ -22,17 +19,17 @@
 .item-cat {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 364px;
+  max-width: 335px;
+  max-height: 364px;
   background-color: #f3f3f3;
+  padding: 24px 28px;
 }
 
 .img {
-  margin: 42px 64px 28px 63px;
-}
-
-.text-name-price {
-  margin: 0 28px 24px 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  margin-top: 18px;
 }
 
 .watch-name {
@@ -41,6 +38,9 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .text-card {
@@ -84,6 +84,7 @@
   .title-cat {
     font-size: 48px;
     line-height: 0.91;
+    margin-bottom: 40px;
   }
 
   .list-cat {
@@ -93,12 +94,14 @@
   }
 
   .item-cat {
-    width: 344px;
-    height: 414px;
+    min-width: 344px;
+    min-height: 414px;
+    padding: 24px 32px;
   }
 
   .img {
-    margin: 34px 38px 20px 38px;
+    margin-bottom: 20px;
+    margin-top: 10px;
   }
 
   .watch-name {
@@ -109,9 +112,6 @@
 
   .watch-name-text {
     max-width: 280px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .item-cat-visibility {
@@ -130,13 +130,16 @@
   }
 
   .list-cat {
-    justify-content: center;
     gap: 32px 23px;
   }
 
   .item-cat {
-    width: 368px;
-    height: 414px;
+    min-width: 368px;
+  }
+
+  .img {
+    margin-bottom: 14px;
+    margin-top: 6px;
   }
 
   .watch-name-text {
