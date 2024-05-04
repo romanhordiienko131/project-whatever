@@ -1,38 +1,37 @@
-@media screen and (min-width: 320px) and (max-width: 375px) {
-  .footer-mob {
-    width: 335px;
-    border-radius: 30px;
-    background-color: #0c0c0c;
-    border: 1px, 0px, 0px, 0px;
-  }
-  .footer-conteiner {
-    width: 90px;
-    height: 19px;
-    gap: 4px;
-  }
-
-  .logo {
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.41px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    color: ##fbfbfb;
-  }
-
-  .social-conteiner {
-  }
-
-  .footer-icons-list {
-  }
-
-  .footer-icon-item {
-  }
-
-  .footer-icon-link {
-  }
-
-  .footer-icon-icon {
-  }
+.footer-mob {
+  width: 375px;
 }
+
+.conteiner-title {
+}
+
+.logo {
+}
+.logo-logo {
+}
+
+.social-conteiner {
+}
+
+.footer-icons-list {
+}
+
+.footer-icon-item {
+}
+
+.footer-icon-link {
+}
+
+.footer-icon-icon {
+}
+/* Стили для адаптивности */
+/* @media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-icons-list {
+    margin-top: 10px;
+  }
+} */
