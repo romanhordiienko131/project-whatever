@@ -1,0 +1,152 @@
+.section-catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.title-cat {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+
+.list-cat {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.item-cat {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  max-height: 364px;
+  background-color: #f3f3f3;
+  padding: 24px 28px;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  margin-top: 18px;
+}
+
+.watch-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-card {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.show-btn {
+  border-radius: 16px;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-btn:hover,
+.show-btn:focus {
+  background-color: #1f3cd4;
+}
+
+.item-cat-visibility {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .section-catalog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .title-cat {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+  }
+
+  .list-cat {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px 16px;
+  }
+
+  .item-cat {
+    min-width: 344px;
+    min-height: 414px;
+    padding: 24px 32px;
+  }
+
+  .img {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .watch-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .watch-name-text {
+    max-width: 280px;
+  }
+
+  .item-cat-visibility {
+    display: block;
+  }
+
+  .show-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-catalog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .list-cat {
+    gap: 32px 23px;
+  }
+
+  .item-cat {
+    min-width: 368px;
+  }
+
+  .img {
+    margin-bottom: 14px;
+    margin-top: 6px;
+  }
+
+  .text-name-price {
+    padding-top: 10px;
+  }
+
+  .watch-name-text {
+    max-width: 304px;
+  }
+}
