@@ -68,6 +68,21 @@
 
 @media screen and (min-width: 375px) {
 
+    .logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding-right: 211px;
+        padding-top: 27.5px;
+        padding-bottom: 27.5px;
+        }
+
+    .menu{
+        align-items: center;
+    }
+
 .mob-menu {
     width: 200px;
     height: 812px;
@@ -75,7 +90,7 @@
     position: fixed;
     top: 0;
     flex-direction: column;
-    background-image: url(../img/header/fon-1x.jpg);
+    background-image: url(../img/header/fon-2x.jpg);
     padding: 24px 24px 40px 16px;
     overflow: auto;
     visibility:visible;/*hidden;*/
@@ -101,6 +116,10 @@ stroke-width: 2.50px;
 .mob-menu-nav {
     width: 73px;
     height: 238px;
+    
+}
+
+.mob-menu-list {
     font-weight: 500;
         font-size: 14px;
         line-height: 129%;
@@ -108,9 +127,9 @@ stroke-width: 2.50px;
         color: FBFBFB;
 }
 
-.mob-menu-list {}
+.mob-menu-item {
 
-.mob-menu-item {}
+}
 
 .mob-menu-link {}
 
