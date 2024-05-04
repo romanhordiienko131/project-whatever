@@ -71,21 +71,42 @@
 .mob-menu {
     width: 200px;
     height: 812px;
-    background: var(--main);
     z-index: 999;
     position: fixed;
     top: 0;
     flex-direction: column;
-    background-image: url();
+    background-image: url(../img/header/fon-1x.jpg);
+    padding: 24px 24px 40px 16px;
+    overflow: auto;
+    visibility:visible;/*hidden;*/
+    pointer-events: 0;
+    /* opacity: 0;*/
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .menu-close-bth {
     stroke: black;
+        padding: 0;
+        line-height: 0;
+        border: none;
+        background-color: transparent;
 }
 
-.menu-close-icon {}
+.menu-close-icon {
+stroke-width: 2.50px;
+    stroke: var(--background);
+}
 
-.mob-menu-nav {}
+.mob-menu-nav {
+    width: 73px;
+    height: 238px;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        color: FBFBFB;
+}
 
 .mob-menu-list {}
 
