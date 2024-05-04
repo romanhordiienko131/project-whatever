@@ -1,0 +1,113 @@
+.container {
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+
+.navigation {
+    display: flex;
+ align-items: center;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding-left: 64.5px;
+    padding-right: 230px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link {
+    color: 0C0C0C;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-soc{
+    padding-left: 203px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-soc-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+}
+
+.open-menu-btn{
+    stroke: black;
+    padding: 0;
+    line-height: 0;
+    border:none;
+    background-color: transparent;
+
+    /*background-color: transparent;
+    cursor: pointer;*/
+}
+
+@media screen and (min-width: 375px) {
+
+.mob-menu {
+    width: 200px;
+    height: 812px;
+    background: var(--main);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    flex-direction: column;
+    background-image: url();
+}
+
+.menu-close-bth {
+    stroke: black;
+}
+
+.menu-close-icon {}
+
+.mob-menu-nav {}
+
+.mob-menu-list {}
+
+.mob-menu-item {}
+
+.mob-menu-link {}
+
+.mob-menu-wrap {}
+
+.mob-soc-list {}
+
+.mob-soc-item {}
+
+.team-social-link {}
+}
+
+@media screen and (min-width: 768px) {
+.mob-menu {
+    width: 330px;
+    height: 1024px;
+    background: rgba(12, 12, 12, 0.92), url("path_to_image");
+    z-index: 999;
+    position: fixed;
+}
+}
