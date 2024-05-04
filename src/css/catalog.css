@@ -142,6 +142,10 @@
     margin-top: 6px;
   }
 
+  .text-name-price {
+    padding-top: 10px;
+  }
+
   .watch-name-text {
     max-width: 304px;
   }
