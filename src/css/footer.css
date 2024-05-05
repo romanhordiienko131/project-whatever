@@ -1,37 +1,136 @@
 .footer-mob {
-  width: 375px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 581px;
+  background-color: #0c0c0c;
+  padding: 40px 28px 28px 28px;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
 }
 
 .conteiner-title {
 }
 
 .logo {
+  gap: 4px;
+  color: #fbfbfb;
+  margin-bottom: 20px;
 }
 .logo-logo {
+  gap: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.41px;
+  letter-spacing: -0.02em;
+  text-align: left;
 }
 
 .social-conteiner {
+  width: 122px;
+  height: 34px;
+  gap: 10px;
 }
 
 .footer-icons-list {
+  display: flex;
+  gap: 8px;
 }
 
 .footer-icon-item {
+  width: 34px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px;
+  border: 1px solid #fbfbfb1a;
 }
 
 .footer-icon-link {
+  border-radius: 10px;
+  border: 1px;
+  border: 1px solid #0c0c0c1a;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-icon {
+  fill: #fbfbfb;
 }
-/* Стили для адаптивности */
-/* @media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .footer-icons-list {
-    margin-top: 10px;
-  }
-} */
+
+.footer-icon-link:hover .footer-icon-icon {
+  fill: #3350e9;
+}
+.footer-icon-link:hover,
+.footer-link:active,
+.footer-link:focus {
+}
+
+.footer-icons-list {
+  margin-top: 10px;
+}
+.phone-button {
+  width: 152px;
+  height: 44px;
+  border-radius: 16px;
+  border: 1px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #fbfbfb33;
+  /* padding: 14px 20px; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.phone-button-text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #fbfbfb;
+}
+.footer-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-menu {
+  width: 147px;
+  height: 64px;
+  padding-top: 92px;
+  gap: 16px;
+}
+
+.footer-menu-contact {
+  flex-wrap: wrap;
+}
+
+.ft-menu-list {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-adress {
+  width: 83px;
+  height: 48px;
+}
+.footer-adress-text {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #fbfbfb;
+}
