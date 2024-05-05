@@ -1,4 +1,4 @@
-<section id="contact">
+<section class="contact-section" id="contact">
   <div class="container contact-container">
     <h2 class="contact-title">Contact Us</h2>
     <div class="content-field">
@@ -8,49 +8,47 @@
           phone, and message and we'll get back to you shortly.
         </p>
 
-        <form>
-          <div class="form">
-            <label class="form-label" for="user-name"></label>
-            <input
-              class="form-input"
-              type="text"
-              name="user-name"
-              id="user-name"
-              placeholder="Name"
-              required
-            />
+        <form class="form">
+          <label class="form-label" for="user-name">Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Name"
+            required
+          />
 
-            <label class="form-label" for="mail"></label>
-            <input
-              class="form-input"
-              type="email"
-              name="mail"
-              id="mail"
-              placeholder="Email"
-              required
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            />
+          <label class="form-label" for="mail"></label>
+          <input
+            class="form-input"
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Email"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
 
-            <label class="form-label" for="phone"></label>
-            <input
-              class="form-input"
-              type="tel"
-              name="phone"
-              id="phone"
-              placeholder="+380"
-              required
-              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-            />
+          <label class="form-label" for="phone"></label>
+          <input
+            class="form-input"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="+380"
+            required
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+          />
 
-            <label for="user-comment"> </label>
-            <textarea
-              class="comment-input"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Comment"
-            ></textarea>
-            <button class="form-button" type="submit">Send</button>
-          </div>
+          <label for="user-comment"> </label>
+          <textarea
+            class="comment-input"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
 
