@@ -61,9 +61,6 @@
         margin-bottom: 25px;
                 /* position: relative; */
         }
-
-    
-
     .nav-list {
         display: none;
     }
@@ -75,6 +72,66 @@
     .nav-soc {
         display: none;
     }
+
+    /*mob-menu*/
+.mob-menu{
+    width: 200px;
+        height: 812px;
+        z-index: 999;
+        position: fixed;
+        display: flex;
+        top: 0;
+        flex-direction: column;
+        background-image: url(../img/header/fon-1x.jpg);
+        padding: 24px 24px 40px 16px;
+        overflow: auto;
+        visibility: visible;
+        /*hidden;*/
+        pointer-events: 0;
+        /* opacity: 0;*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+    }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 2dppx),
+(min-resolution: 192ppi) {
+    .hero-wrap {
+        background-image: url(../img/header/fon-2x.jpg);
+    }
+}
+
+.menu-close-bth{
+    stroke-width: 2.50px;
+    width: 17px;
+    height: 17px;
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    }
+
+.menu{
+    max-width: 73px;
+    height: 238px;
+    margin: 240px 64px 334px 63px;
+}
+
+/*.mob-menu-list{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: FBFBFB;
+}*/
+
+.mob-menu-link{
+        font-weight: 500;
+            font-size: 14px;
+            line-height: 129%;
+            text-align: center;
+            color: FBFBFB;
+}
 
 @media screen and (min-width: 768px) {
     .container {
@@ -89,6 +146,7 @@
     display: none;
 }
 
+/*mob-menu*/
 
 }
 
@@ -177,6 +235,11 @@
     width: 36px;
     height: 36px;
 }
+
+ .nav-soc-link:hover,
+ .nav-soc-link:focus {
+    color: 3350E9;
+ }
 
 .open-menu-btn {
         stroke: black;
