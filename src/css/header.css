@@ -14,23 +14,13 @@
     letter-spacing: -0.02em;
 }
 
-.header-nav {}
-
 .header-nav-list {
     display: none;
 }
 
-.header-nav-item {}
-
-.header-nav-link {}
-
 .header-soc-list {
     display: none;
 }
-
-.header-soc-item {}
-
-.header-soc-link {}
 
 .menu-btn {
     display: flex;
@@ -85,7 +75,6 @@
     background-color: transparent;
 }
 
-.menu-nav {}
 
 .menu-nav-list {
     display: flex;
@@ -126,8 +115,6 @@
     display: flex;
     gap: 10px;
 }
-
-.menu-soc-item {}
 
 .menu-soc-link {
     border: 1px solid rgba(251, 251, 251, 0.1);
