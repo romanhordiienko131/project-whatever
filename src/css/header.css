@@ -37,7 +37,7 @@
   right: 0;
   width: 200px;
   height: 100%;
-  background-image: url(../img/header/menubg-mob.jpg);
+  background-image: url(../img/header/menubg-mob.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -59,7 +59,7 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .mob-menu {
-    background-image: url(../img/header/menubg-mob-2x.jpg);
+    background-image: url(../img/header/menubg-mob-2x.webp);
   }
 }
 
@@ -144,14 +144,14 @@
     width: 330px;
     padding-top: 310px;
     padding-bottom: 50px;
-    background-image: url(../img/header/menubg-tab.jpg);
+    background-image: url(../img/header/menubg-tab.webp);
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .mob-menu {
-      background-image: url(../img/header/menubg-tab-2x.jpg);
+      background-image: url(../img/header/menubg-tab-2x.webp);
     }
   }
 
