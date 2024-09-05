@@ -1,3 +1,5 @@
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+
 (() => {
   const mobileMenu = document.querySelector('.mob-menu');
   const openMenuBtn = document.querySelector('.menu-btn');
@@ -10,10 +12,11 @@
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
     mobileMenu.classList.toggle('is-open');
 
-    const scrollLockMethod = !isMenuOpen
-      ? 'disableBodyScroll'
-      : 'enableBodyScroll';
-    bodyScrollLock[scrollLockMethod](document.body);
+    if (!isMenuOpen) {
+      disableBodyScroll(mobileMenu);
+    } else {
+      enableBodyScroll(mobileMenu);
+    }
   };
   closeMenuLink.forEach(item => item.addEventListener('click', toggleMenu));
   openMenuBtn.addEventListener('click', toggleMenu);
@@ -23,6 +26,6 @@
     if (!e.matches) return;
     mobileMenu.classList.remove('is-open');
     openMenuBtn.setAttribute('aria-expanded', false);
-    bodyScrollLock.enableBodyScroll(document.body);
+    enableBodyScroll(mobileMenu);
   });
 })();
